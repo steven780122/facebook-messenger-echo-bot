@@ -3,9 +3,9 @@ let bodyParser = require('body-parser')
 let request = require('request')
 let app = express()
 
-const FACEBOOK_ACCESS_TOKEN = 'Your_Facebook_Access_Token'
+const FACEBOOK_ACCESS_TOKEN = 'EAABozUSjqe8BAHGPBZBZB3DdaPyt0wRkUVdMM8P2KqjZCOWzqtYdX3coqqQ8TJuWHgy8l6MtsdlxVThD5UG82iYCcDQQ1dFZAzQim5T7Pj8zajZCv9aN5vaI8kVefZBHhmvc8LRHjrAEgHYlxWMZB9vD4fy8FmDKPM938WPEIDImgZDZD'
 const PORT = process.env.PORT || 3000
-const VERIFY_TOKEN = 'Your_Verify_Token'
+const VERIFY_TOKEN = 'chatbot92_steven_Verify_Token'   // FB同時也會把verify token打過來(設定為自己知道)
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
